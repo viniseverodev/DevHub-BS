@@ -5,5 +5,5 @@ export default defineConfig({
   server: {
     port: 8080
   },
-  base: '/',  // Certifica que o caminho base será a raiz do servidor
+  base: 'DevHub-BS',  // Certifica que o caminho base será a raiz do servidor
 });
