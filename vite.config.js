@@ -1,16 +1,9 @@
 import { defineConfig } from 'vite';
-import { resolve } from 'path';
 
 export default defineConfig({
-  base: '/DevHub-BS/',  // Substitua pelo nome do seu repositório
-
-  build: {
-    outDir: 'dist',  // Pasta de saída
-    rollupOptions: {
-      input: resolve(__dirname, 'src', 'index.html'),  // Garante que o Vite use o index.html da pasta 'src'
-    }
-  },
+  root: '.',  // A raiz do projeto é a pasta onde está o index.html
   server: {
-    port: 8080  // Ajuste a porta para o seu ambiente de desenvolvimento, se necessário
-  }
+    port: 8080
+  },
+  base: '/',  // Certifica que o caminho base será a raiz do servidor
 });
