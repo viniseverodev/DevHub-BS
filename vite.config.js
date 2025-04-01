@@ -2,11 +2,12 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 export default defineConfig({
-  base: '/',  // Se seu repositório tiver um nome, coloque como '/nome-do-repositorio/'
+  base: '/DevHub-BS/',  // Substitua pelo nome do seu repositório
+
   build: {
-    outDir: 'dist',  // Diretório de saída para o build
+    outDir: 'dist',  // Pasta de saída
     rollupOptions: {
-      input: resolve(__dirname, 'src', 'index.html'),  // Garante que o Vite usa o index.html na pasta 'src'
+      input: resolve(__dirname, 'src', 'index.html'),  // Garante que o Vite use o index.html da pasta 'src'
     }
   },
   server: {
