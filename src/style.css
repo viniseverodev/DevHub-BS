@@ -1,0 +1,7 @@
+#carouselAds {
+  & img {
+    max-width: 18rem;
+    max-height: 10rem;
+    object-fit: cover;
+  }
+}
