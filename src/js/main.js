@@ -1,5 +1,5 @@
 import '../scss/style.scss';
-import '/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 document.getElementById('newPostBtnInput').addEventListener('click', () => {
   const modalElement = document.getElementById('postModal');

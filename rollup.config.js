@@ -12,7 +12,7 @@ export default {
   plugins: [
     resolve({
       browser: true,
-      extensions: ['.mjs', '.js', '.json', '.node']
+      extensions: ['.js', '.json']
     }),
     commonjs(),
     scss({
