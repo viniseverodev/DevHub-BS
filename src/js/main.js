@@ -1,10 +1,13 @@
 import '../scss/style.scss'
 
-import { Dropdown, Modal, Carousel, Button } from "bootstrap";
+// import { Dropdown, Modal, Carousel, Button } from "bootstrap";
+
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 document.getElementById('newPostBtnInput').addEventListener('click', () => {
   const modalElement = document.getElementById('postModal')
-  const postModal = new Modal(modalElement)
+  const postModal = new bootstrap.Modal(modalElement)
   postModal.show()
   setTimeout(() => {
     document.getElementById('writePostInput').focus()
