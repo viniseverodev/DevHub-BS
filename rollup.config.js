@@ -16,7 +16,7 @@ export default {
     }),
     commonjs(),
     scss({
-      output: 'public/css/styles.css'
+      output: './src/style.css'
     })
   ]
 };
