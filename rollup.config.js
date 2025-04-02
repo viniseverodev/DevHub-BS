@@ -11,7 +11,8 @@ export default {
   },
   plugins: [
     resolve({
-      browser: true
+      browser: true,
+      extensions: ['.mjs', '.js', '.json', '.node']
     }),
     commonjs(),
     scss({
